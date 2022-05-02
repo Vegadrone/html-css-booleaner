@@ -24,6 +24,7 @@ header{
     padding-left: 20px;
 } */
 
+/* Sezione Titolo + Foto */
 h1{
     font-weight:bold;
     font-size: 50px;
@@ -55,6 +56,23 @@ h1{
     font-weight: bold;
 }
 
+/* Sezione Paragrafo + UL */
 .highlighter{
     background-color: yellow;
+}
+
+/* Sezione Tabella + Paragrafo */
+table{
+    width: 100%;
+}
+
+thead {
+    background-color: rgb(30, 105, 255);
+}
+th {
+    color: white;
+}
+
+.colortr{
+    background-color: lightblue;
 }
