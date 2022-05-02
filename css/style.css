@@ -87,24 +87,11 @@ th {
 
 /* footer */
 
-/* #footerlink1{
-
-    background-image: url(.././img/monitor.jpg);
-    width: 250px;
-    height: 150px;
+.lorem {
     color: white;
     font-weight: bold;
-    padding-top: 5px;
-
+    position: relative;
+    bottom:200px;
+    left:20px;
+    
 }
-
-#footerlink2{
-    background-image: url(.././img/graph.jpg);
-    width: 250px;
-    height: 150px;
-    color: white;
-    font-weight: bold;
-    padding-top: 5px;
-} */
-
-
