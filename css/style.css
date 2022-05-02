@@ -1,8 +1,9 @@
 body {
-    margin:0;
+margin:0;
 }
 
 header{
+    
     min-height: 180px;
     background-image: url(.././img/pattern.png);
     background-color: rgb(30, 105, 255);
@@ -29,6 +30,10 @@ h1{
     font-weight:bold;
     font-size: 50px;
     margin-bottom: 0px;
+}
+
+.border{
+    margin: 10px;
 }
 
 #credits {
@@ -63,7 +68,9 @@ h1{
 
 /* Sezione Tabella + Paragrafo */
 table{
+    table-layout: fixed;
     width: 100%;
+    border-collapse: collapse;
 }
 
 thead {
@@ -71,8 +78,33 @@ thead {
 }
 th {
     color: white;
+    text-align: left;
 }
 
 .colortr{
     background-color: lightblue;
 }
+
+/* footer */
+
+/* #footerlink1{
+
+    background-image: url(.././img/monitor.jpg);
+    width: 250px;
+    height: 150px;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+
+}
+
+#footerlink2{
+    background-image: url(.././img/graph.jpg);
+    width: 250px;
+    height: 150px;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+} */
+
+
