@@ -27,6 +27,19 @@ header{
 h1{
     font-weight:bold;
     font-size: 50px;
+    margin-bottom: 0px;
+}
+
+#credits {
+    font-size: 25px;
+}
+
+#data{
+    font-size: 15px;
+}
+
+.timPh{
+    padding-top: 25px;
 }
 
 #linkBooleaner{
@@ -35,4 +48,13 @@ h1{
 
 #linkBooleaner:hover{
     text-decoration: underline;
+}
+
+.phDescriptions{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.highlighter{
+    background-color: yellow;
 }
